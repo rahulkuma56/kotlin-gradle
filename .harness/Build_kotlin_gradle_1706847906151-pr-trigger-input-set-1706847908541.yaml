@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kotlin_gradle_1706847906151-pr-trigger-input-set
+  identifier: Build_kotlin_gradle_1706847906151prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: RahulTestProject
+  pipeline:
+    identifier: Build_kotlin_gradle_1706847906151
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

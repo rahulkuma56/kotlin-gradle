@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kotlin_gradle_1706847906151-push-trigger-input-set
+  identifier: Build_kotlin_gradle_1706847906151pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: RahulTestProject
+  pipeline:
+    identifier: Build_kotlin_gradle_1706847906151
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
